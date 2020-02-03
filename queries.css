@@ -1,0 +1,25 @@
+/* Small tablet to big tablet (768px to 1023px) */
+@media only screen and (max-width: 1023px) {
+    .budget__title {font-size: 130%;}
+    .budget__income--text {font-size: 105%;}
+    .budget__expenses--text {font-size: 105%;}
+    .right {font-size: 105%;}
+    .budget__expenses--percentage {font-size: 75%}
+    
+    .income {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 425px;
+    }
+
+    .income__list {font-size: 115%;}
+
+    .expenses {
+        margin-right: 5%;
+        width: 425px;
+    }
+
+    .expenses__list {font-size: 115%;}
+
+    .item__percentage {font-size: 65%}
+}
